@@ -1,0 +1,7 @@
+{{ partial "header.html" . }}
+{{ .Title }}
+<div style="width: 800px;">
+{{ .Content }}
+</div>
+{{ template "_internal/disqus.html" . }}
+{{ partial "footer.html" . }}
